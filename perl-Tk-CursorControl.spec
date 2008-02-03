@@ -1,7 +1,7 @@
 
 %define realname   Tk-CursorControl
 %define version    0.4
-%define release    %mkrel 2
+%define release    %mkrel 3
 
 Name:       perl-%{realname}
 Version:    %{version}
@@ -15,10 +15,11 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-devel
 BuildRequires: perl(Tk)
 
-BuildArch: noarch
-
 %description
-no desccription found
+
+Tk::CursorControl is -NOT- a Tk::Widget. Rather, it uses Tk and
+encompasses a collection of methods used to manipulate the cursor (aka
+pointer) programmatically from a Tk program.
 
 %prep
 %setup -q -n %{realname}-%{version} 
