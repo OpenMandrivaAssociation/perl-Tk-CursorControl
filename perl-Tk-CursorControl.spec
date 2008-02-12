@@ -20,7 +20,6 @@ BuildRequires: perl-devel
 BuildRequires: perl(Tk)
 
 %description
-
 Tk::CursorControl is -NOT- a Tk::Widget. Rather, it uses Tk and
 encompasses a collection of methods used to manipulate the cursor (aka
 pointer) programmatically from a Tk program.
