@@ -1,7 +1,7 @@
 
 %define realname   Tk-CursorControl
 %define version    0.4
-%define release    %mkrel 4
+%define release    %mkrel 6
 
 Name:       perl-%{realname}
 Version:    %{version}
