@@ -1,0 +1,11 @@
+--- Tk-CursorControl-0.4-orig/Makefile.PL	2008-02-04 13:54:19.000000000 +0100
++++ Tk-CursorControl-0.4/Makefile.PL	2008-02-04 13:54:51.000000000 +0100
+@@ -16,7 +16,7 @@
+ 		'trans_cur.mask'	=> '$(INST_LIB)/Tk/trans_cur.mask',
+ 		'demos/cursor.pl'	=> ($] >= 5.005
+ 					? '$(INST_ARCHLIB)'
+-					: '$(INST_LIB)') . '/Tk/demos/widtrib/cursor.pl',
++					: '$(INST_LIB)') . '/Tk/demos/widtrib/cursorcontrol.pl',
+ 			},
+ 	
+ 	'PREREQ_PM'	=> {
