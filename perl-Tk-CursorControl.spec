@@ -5,7 +5,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	6
+Release:	7
 
 Summary:    Manipulate the mouse cursor programmatically
 License:    GPL+ or Artistic
