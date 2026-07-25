@@ -4,14 +4,14 @@
 %define debug_package %{nil}
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	7
+Version:    %{upstream_version}
+Release:	8
 
 Summary:    Manipulate the mouse cursor programmatically
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Tk/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://metacpan.org/dist/Tk-CursorControl
+Source0:    https://cpan.metacpan.org/authors/id/D/DU/DUNNIGANJ/Tk-CursorControl-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(Tk)
